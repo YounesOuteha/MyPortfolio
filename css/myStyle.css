@@ -1,0 +1,67 @@
+body{
+    background-image: url("../img/uni.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(201, 92, 14);
+    text-align: justify;
+    text-shadow: #6699ff;
+    margin: 10%, 30%, 30%, 30%;
+}
+h1{
+    margin-left: 40%;
+    color: blue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    margin-left: 38%;
+    color: blue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.me{
+    width: 40%; height : 40%;
+    border-radius: 50%;
+    display: block;
+    /*position: fixed;*/
+}
+#center{
+    margin: 5% 20% 10% 40%;
+}
+table{
+    width: 10%;
+    height: 10%;
+    line-height: 50px;
+    margin-right: 10%;
+    float: right;
+    background-color: #6699ff;
+    position: fixed;
+    top: 25%;
+    right: 5%;
+}
+td {
+    vertical-align: middle;
+    border: 3px solid #ccffff;
+    border-bottom: none;
+    border-radius: 20px;
+}
+tr:hover{
+    background-color: black;
+}
+table{
+    text-align: center;
+    border-bottom: 3px solid #ccffff;
+    border-radius: 20px;
+}
+.container{
+    border: 3px dashed blue;
+    border-radius: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
